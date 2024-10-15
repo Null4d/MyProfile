@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <title>Batu...</title>
+</head>
+
+<body>
+    <section class="hero">
+        <!-- social -->
+        <ul class="social">
+            <li>
+                <a href="https://github.com/Null4d" target="_blank">
+                    <img src="./img/github.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <img src="./img/linkedin.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@Nullfxx/videos" target="_blank">
+                    <img src="./img/youtube.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/null_edits1/" target="_blank">
+                    <img src="./img/instagram.svg" alt="">
+                </a>
+            </li>
+        </ul>
+        <!-- social /. -->
+
+        <div class=" swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(./img/bg.png);">
+                    <div class="swiper-wrap">
+                        <h1 class="swiper-title">I'M BATU</h1>
+                        <h2 class="swiper-subtitle">SOFTWARE DEVELOPER!</h2>
+                        <div class="planet">
+                            <img src="./img/planet.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- hero /. -->
+
+                <div class="swiper-slide" style="background-image: url(./img/bg1.png);">
+                    <div class="swiper-wrap">
+                        <h1 class="swiper-title">[ SKILLS ]</h1>
+                        <h2 class="swiper-subtitle">Here is a list of some of my skills!</h2>
+                        <div class="skills">
+                            <ul>
+                                <li><img src="./img/html5.svg" alt=""></li>
+                                <li><img src="./img/css3.svg" alt=""></li>
+                                <li><img src="./img/javascript.svg" alt=""></li>
+                                <li><img src="./img/after-effects.svg" alt=""></li>
+                                <li><img src="./img/blender.svg" alt=""></li>
+                                <li><img src="./img/figma.svg" alt=""></li>
+                                <li><img src="./img/photoshop.svg" alt=""></li>
+                            </ul>
+                        </div>
+                        <div class="planet planet-rotate90">
+                            <img src="./img/planet.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- skills /. -->
+
+                <div class="swiper-slide" style="background-image: url(./img/bg2.png);">
+                    <div class="swiper-wrap">
+                        <h1 class="swiper-title">[ ABOUT ME ] <br> ↓</h1>
+                        <div class="about-me">
+                            Greatest Programer
+                            based in Earth
+                            
+                            I design and code beautifully simple things and I love what I do. Just simple like that!
+                        </div>
+                        <div class="planet planet-rotate180">
+                            <img src="./img/planet.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- about /. -->
+
+                <div class="swiper-slide" style="background-image: url(./img/bg3.png);">
+                    <div class="swiper-wrap">
+                        <h1 class="swiper-title">[ CONTACT ]</h1>
+                        <ul class="contact">
+                            <li>
+                                <a href="https://discordapp.com/users/884110769027952642    " target="_blank">
+                                    <img src="./img/discord.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:batuc0d3r@gmail.com">
+                                    <img src="./img/gmail.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="planet planet-rotate270">
+                            <img src="./img/planet.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
